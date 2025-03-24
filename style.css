@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+nav{
+    text-transform: capitalize;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border-width: 100%;
+    
+  
+}
+
+ul{
+    width: 90%;
+    margin: auto; 
+    color: white;
+    justify-content: space-around;
+    display:flex;
+    list-style: none;
+    padding: 10px;
+    padding-top: 10px;
+   
+   
+}
+.home{
+    justify-content: space-evenly;
+    display:flex;
+    width: 40%;
+    margin: auto;
+    padding-right: 90px;
+    
+}
+
+.book{
+   
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.gerich{
+    width: 20%;
+    margin: auto;
+    text-align: justify;
+    margin-left: 42px;
+}
+.login{
+    margin-top: 10px;
+}
+
+.hero-section{
+    justify-content: space-evenly;
+    display:flex;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+.hero-text{
+    width: 55%;
+    margin: auto 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.bar{
+    text-align: justify;
+    text-transform: capitalize;
+    /* width: 100%;
+    /* margin: auto; */
+    /* margin-bottom:100px ; */
+    /* margin-right: 00px; */
+    transform: rotate(270deg);
+    /* transform-origin: left right; */ 
+    /* left:50px; 
+  top: 0; */
+  width: 1300;
+height: 736;
+top: 169px;
+left: 310px;
+gap: 180px;
+
+
+}
+
+.key{
+    color: rgb(230, 230, 151);
+    font-size: 25px;
+    width: 80%;
+    line-height: 45px;
+    
+
+}
+
+.active{
+    width: 88%;
+    margin: auto 4px;
+    /* margin-right:  6px; */
+    line-height: 25px;
+}
+button{
+    width: 30%;
+    /* margin: auto px; */
+   background-color: rgb(230, 230, 151);
+   color: black;
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+    margin-right:110px;
+}
+
+.shift{
+    margin-left: 70px;
+    
+}
+
+.hero-img{
+ width: 65%;
+    margin: auto; 
+    margin-top: 55px;
+    
+
+}
+img{
+    width: 60%;
+    
+    margin: auto; 
+
+}
+
+.features-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/BG\ \(1\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        color: white;
+    
+}
+
+
+.subsection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+    padding-top: 160px;
+     
+    background-image: url(./img/G\ \(1\).png);
+    background-size: 20%; /* adjust this value */
+    background-position: center; /* optional */
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  
+
+.about-us{
+    width: 30%;
+    margin: auto;
+}
+
+.history{
+    width: 30%;
+    margin: auto;
+}
+
+
+
+.features-section {
+    
+    position: relative; 
+  }
+  
+  .knive-img {
+    position: absolute;
+    top: 90px; 
+    left: 0; 
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    margin-left: 580px;
+  }
+  img{
+    width: 40%;
+    margin: auto;
+  }
+
+  .about-us img{
+    width: 10%;
+    margin-left: 210px;
+    rotate: 181deg;
+    
+    
+  }
+  .history img{
+    width: 10%;
+    margin-right: 200px;
+    
+  }
+  
+
+.service-section{
+text-transform: capitalize;
+justify-content: space-evenly;
+    display:flex;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    overflow:hidden;
+    /* clear: both; */
+
+   
+}
+
+.service-section h3{
+    color: rgb(230, 230, 151);
+    
+}
+.service-section span{
+    color: white;
+}
+
+span img{
+    width: 20%;
+    margin: auto;
+}
+.menu{
+
+    position: absolute;
+    top: 20px; /* adjust the value to your liking */
+    width: 100%;
+    text-align: center;
+}
+
+.wine{
+    width: 20%;
+    margin: auto;
+    text-transform: capitalize;
+    line-height: 25px;
+    /* padding-top: 20px; */
+    
+
+    
+}
+
+.wine p{
+    font-size: 10px;
+    font-size: bold;
+   
+}
+
+.cocktail{
+    width: 20%;
+    margin: auto;
+    text-transform: capitalize;
+    line-height: 25px;
+    /* padding-top: 20px; */
+   
+    position: relative;
+
+}
+
+  
+  .cocktail button {
+    position: absolute;
+    bottom: 0;
+    right: 80%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+    width: 30%;
+    
+  }
+  
+
+.cocktail p{
+    font-size: 10px;
+    font-size: bold;
+   
+}
+
+.drink{
+    /* text-align: center; */
+    position: absolute;
+    top: 140px; 
+    left: 0; 
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-left: 350px;
+}   
+
+.drink img{
+    text-align: center;
+    /* width: 40%;
+    margin: auto; */
+}
+
+.chef-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/BG\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+     
+  
+}
+
+.chef-img{
+    width: 40%;
+    margin: auto;
+}
+.chef-img img{
+    width: 75%;
+    margin: auto;
+}
+
+.chef-text{
+    width: 40%;
+    margin: auto;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+.testimonials-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/BG\ \(2\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+   color: white;
+   display: flex;
+    justify-content: space-evenly;
+    
+  
+}
+
+
+
+.testimonials-text{
+  width: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  line-height: 20px;
+  text-wrap: wrap;
+ text-transform: capitalize;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px; 
+   margin-right: 100px;
+   padding-top: 200px;
+ 
+}
+
+  
+  
+
+.testimonials-text img{
+  /* margin-top: 50px; */
+  width: 70%;
+  margin: auto;
+}
+
+
+.testimonials-img{
+  width: 55%;
+  margin: auto ;
+  /* padding-top: 200px; */
+}
+
+.testimonials-img img{
+  width: 65%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.call-to-action-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/BG\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+
+}
+
+.call-to-action-photo{
+    width: 40%;
+     margin: auto; 
+     margin-left: 110px;
+     text-transform: capitalize;
+     padding-bottom: 40px;
+
+}
+
+.call-to-action-img{
+    width: 30%; 
+    margin: auto;
+     display: flex;
+    justify-content: space-evenly;
+    margin-right: 280px;
+    gap: 13px; 
+      
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/BG\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+     text-transform: capitalize;
+
+}
+
+.footer-text{
+    width: 40%;
+    margin: auto;
+    margin-left: 90px;
+
+}
+
+.footer-img{
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.footer-img img{
+    width: 60%;
+    /* margin: auto; */
+}
+
+.newsletter-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/BG\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+     color: white;
+     text-transform: capitalize;
+
+}
+
+
+.newsletter-subscription{
+
+        width: 40%;
+       
+        margin: auto;
+        padding-top: 10px;
+        box-shadow: 0px 0px 12px rgb(230, 230, 151);
+        text-align: center;
+
+    
+    
+        
+
+}
+
+
+input{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(230, 230, 151);
+    margin-bottom: 30px;
+}
+
+.newsletter-working-time{
+    width: 80%;
+    margin: auto;
+    display: flex;
+     justify-content: space-evenly;
+     margin-top: 70px;
+     text-transform: capitalize;
+
+ 
+}
+      
+
+     
+
+
+
+  
+  
+ 
