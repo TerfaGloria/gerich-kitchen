@@ -464,6 +464,16 @@ span img{
 
 }
 
+.call-to-action-photo p{
+    /* padding-right: 60px; */
+    width: 88%;
+    margin: auto 3px;
+    /* margin-right:  6px; */
+    line-height: 25px;
+       
+    
+}
+
 .call-to-action-img{
     width: 30%; 
     margin: auto;
@@ -747,7 +757,7 @@ h4 img{
 .hero-img{
  width: 75%;
     margin: auto; 
-    /* margin-top: 55px; */
+
 
     
 
