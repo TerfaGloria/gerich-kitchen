@@ -31,6 +31,9 @@ ul{
    
    
 }
+.mobile-view{
+    display: none;
+}
 .home{
     justify-content: space-evenly;
     display:flex;
@@ -54,6 +57,10 @@ ul{
 }
 .login{
     margin-top: 10px;
+}
+
+.meal-search{
+    display: none;
 }
 /* Navbar styling for desktop screens end*/
 
@@ -589,6 +596,13 @@ input{
 }
 /* newsletter-section styling for desktop screens end*/
 
+ .Rights{
+    text-align: center;
+     margin-right: 50px;
+     margin-top: 50px;
+     
+    }
+
 .close-img{
     display: none;
 }
@@ -620,17 +634,7 @@ nav {
     /* z-index: 100; */
   }
 
-/* 
-    nav{
-        text-transform: capitalize;
-        background-color: black;
-        width: 100%;
-        height: 50px;
-        border-width: 100%;
-        position: absolute;
-        
-      
-    } */
+
     
      ul{
         width:25%;
@@ -641,27 +645,28 @@ nav {
         list-style: none;
         padding: 10px;
         padding-top: 10px;
-        font-size: 5px;
+        font-size: 7px;
         margin-right: 65px; 
+        line-height: 15px;
         /* text-align:left; */
 
      
        
     }
-    .home{
+    .mobile-view{
         flex-direction: column;
         display:flex;
+        text-transform: capitalize;
+    
        
+    }
+    .home{
+        display: none;
     }
     
     .book{
        
-      width: 40%;
-      margin: 0;
-      padding: 0px;
-      flex: 1;
-      text-align: center;
-        /* padding-right: 30px; */
+     display: none;
 
     }
     
@@ -673,7 +678,7 @@ nav {
        left: 10px;
     }
     .login{
-        margin-top: 0px;
+        display: none;
     }
   
   /* Hero Section */
@@ -685,14 +690,16 @@ nav {
     height: 80vh;
     background-color: black;
     color: white;
+    margin-top: 50px;
   }
   
   .hero-text {
     width: 80%;
     margin: auto;
     line-height: 3px;
-    padding-bottom: 10px;
-    text-align: center;
+    /* padding-bottom: 10px; */
+    text-align: justify;
+    margin-top: 20px;
   }
   
 
@@ -707,7 +714,7 @@ nav {
     color: rgb(230, 230, 151);
     font-size: 10px;
     font-weight: bold;
-    margin-left: -10px;
+    margin-left: -13px;
     line-height: 1.5;
     font-family: Cormorant Upright;
     
@@ -722,16 +729,16 @@ nav {
 }
 
 h4 img{
-    width: 10%;
+    width: 5%;
     margin: auto 3px;
     margin-top: 7px;
-    /* margin-right: 155px; */
+    margin-right: 138px;
     
 }
 
 .hero-text .active{
-    width: 88%;
-    margin: auto -7px;
+    width: 77%;
+    margin: auto -10px;
     line-height: 1.4;
     margin-top: 10px;
     font-size: 7px;
@@ -745,14 +752,15 @@ h4 img{
     margin: 10px;
 }
  .hero-text button{
-     width: 40%; 
-    margin: auto -16px ;
+     width: 20%; 
+    margin: auto -18px;
    background-color: rgb(230, 230, 151);
    color: black;
     text-transform: capitalize;
     font-size: 8px;
     border: none; 
     padding: 3px;
+    /* margin-right: 210px; */
   
    
 }
@@ -762,21 +770,60 @@ h4 img{
 }
 
 .hero-img{
- width: 75%;
-    margin: auto; 
+ width: 60%;
+    margin: auto 15px; 
+    text-align: center;
 
 
     
 
 }
 img{
-    width: 50%;
+    width: 55%;
     margin: auto 30px; 
-    margin-bottom: 80px;
+    margin-bottom: 40em;
 
 }
 .hero-img p{
     display: none;
+}
+
+.meal-search{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+.menu-btn{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    display: block;
+   
+}
+
+/* .search{
+    display: flex;
+    flex-direction: column;
+     width: 30%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+.search button{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(230, 230, 151);
+    color: black; */
+
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;  
+
 }
 /* Features section adjustments */
 /* .features-section {
@@ -917,3 +964,4 @@ img{
   
 } 
   
+}
