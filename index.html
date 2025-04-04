@@ -12,12 +12,6 @@
       <!--navbar start-->
       <header class="navbar">
         <nav>
-          <img
-            src="./img/close.png"
-            alt=""
-            width="30%;margin:auto"
-            class="close-img"
-          />
           <ul>
             <li class="gerich">
               <img src="../assets/img/Frame 64 (1).png" alt="" />
@@ -30,43 +24,29 @@
               <li>landing</li>
             </div>
             <div class="mobile-view">
-              <li>home</li>
-              <li>menu</li>
-              <li>contact</li>
-              <li>about</li>
-              <li>chef</li>
-              <li>whislist</li>
-              <li></li>
-              <li>register/login</li>
+              <div class="menu-icon hidden">
+                <img src="./assets/img/menu.png" alt="" />
+              </div>
+              <div class="close-icon hidden">
+                <img src="./assets/img/close.png" alt="" />
+              </div>
+              <div class="home-page hidden">
+                <li>home</li>
+                <li>menu</li>
+                <li>contact</li>
+                <li>about</li>
+                <li>chef</li>
+                <li>whislist</li>
+                <li>register/login</li>
+              </div>
             </div>
 
             <li class="login">log in/ registration</li>
+            <hr class="hr" />
+
             <li class="book">book table</li>
           </ul>
         </nav>
-        <!-- <div class="meal-search">
-       <div>
-        <button>search menu</button><button>search</button>
-       </div>
-         
-          <div class="search">
-         
-          <button>beef</button>
-          <button>desert</button>
-          <button>miscellaneous</button>
-          <button>pork</button>
-          <button>side</button>
-          <button>vegan</button>
-          <button>breakfast</button>
-          <button>chicken</button>
-          <button>lamb</button>
-          <button>pasta</button>
-          <button>seafood</button>
-          <button>starter</button>
-          <button>vegetarian</button>
-          <button>goat</button>
-         </div>
-        </div> -->
       </header>
       <!--navbar end-->
 
@@ -79,7 +59,12 @@
         </div>
 
         <div class="hero-text">
-          <p style="margin-right: 55px" class="chase">chase the new flavour</p>
+          <p
+            style="width: 231; margin-right: 30px; height: 47; gap: 8px"
+            class="chase"
+          >
+            chase the new flavour
+          </p>
           <h4>
             <img src="../assets/img/Frame 17.png" alt="logo" />
           </h4>
@@ -90,8 +75,9 @@
             </p>
 
             <p class="active">
-              Lorem i ipsum dolor sit amet <br />
-              consectetur Sed, officia nobis
+              Lorem i ipsum dolor sit amet consectetur Sed, officia nobis
+              consectetur Sed, officia nobis consectetur Sed, officia nobis
+              home,thr yth
             </p>
 
             <div class="button-btn">
@@ -103,30 +89,6 @@
         <div class="hero-img">
           <img src="../assets/img/Hero img.png" alt="logo" />
 
-          <div class="meal-search">
-            <button class="menu-btn">search menu</button>
-            <!-- <div class="search">
-              
-              <div>
-                <button>beef</button>
-                <button>desert</button>
-                <button>miscellaneous</button>
-                <button>pork</button>
-                <button>side</button>
-                <button>vegan</button>
-                <button>breakfast</button>
-              </div>
-               <div>
-                <button>chicken</button>
-               <button>lamb</button>
-               <button>pasta</button>
-               <button>seafood</button>
-               <button>starter</button>
-               <button>vegetarian</button>
-               <button>goat</button>
-               </div>
-              </div> -->
-          </div>
           <p style="margin-top: 30px; margin-right: 170px; font-size: 10px">
             01-02 03 04
           </p>
@@ -151,30 +113,21 @@
           />
         </div>
         <div class="subsection">
-          <div class="about-us" style="text-align: right">
-            <h2
-              style="
-                text-transform: capitalize;
-                color: rgb(230, 230, 151);
-                margin-left: 160px;
-              "
-              ;
-            >
-              about us
-            </h2>
+          <div class="about-us">
+            <h2>about us</h2>
             <img src="../assets/img/Frame 17.png" alt="logo" />
-            <p class="active" style="text-align: right; margin-left: 80px">
+            <p class="active p">
               Lorem i ipsum dolor sit amet consectetur Sed, officia nobis
               deleniti doloremque the
             </p>
-            <div><button style="margin-left: 300px">know more</button></div>
+            <div><button>know more</button></div>
           </div>
           <div class="history">
             <h2 style="text-transform: capitalize; color: rgb(230, 230, 151)" ;>
               our history
             </h2>
             <img src="../assets/img/Frame 17.png" alt="logo" />
-            <p class="active">
+            <p class="active p">
               Lorem i ipsum dolor sit amet consectetur Sed, officia nobis
               deleniti doloremque the
             </p>
@@ -186,12 +139,8 @@
       <section class="service-section">
         <div class="menu">
           <p>menu that fits you palatte</p>
-          <img
-            src="../assets/img/Frame 17.png"
-            alt=""
-            style="width: 2%; margin: auto; padding-bottom: 25px"
-          />
-          <h3 style="width: 25%; margin: auto">today's special</h3>
+          <img src="../assets/img/Frame 17.png" alt="" />
+          <h3>today's special</h3>
         </div>
 
         <div class="drink">
@@ -277,8 +226,8 @@
             >
           </h3>
           <p>gin | sweet vermout | campari | orange garnish</p>
-          <div style="width: 100%; margin: auto; padding-top: 80px">
-            <button style="width: 50%">view more</button>
+          <div class="cocktail-btn">
+            <button>view more</button>
           </div>
         </div>
       </section>
@@ -290,9 +239,7 @@
           <img src="../assets/img/Image (1).png" alt="logo" />
         </div>
         <div class="chef-text">
-          <p style="text-transform: capitalize; padding-top: 40px">
-            chef's word
-          </p>
+          <p class="word">chef's word</p>
           <img
             src="../assets/img/Frame 17.png"
             alt=""
@@ -301,7 +248,7 @@
           <h3 style="text-transform: capitalize; color: rgb(230, 230, 151)">
             what we believe in
           </h3>
-          <p class="active">
+          <p>
             <img
               src="../assets/img/pix.png"
               alt=""
@@ -312,7 +259,7 @@
             a.
           </p>
 
-          <div style="margin-top: 60px">
+          <div>
             <h3 style="text-transform: capitalize; color: rgb(230, 230, 151)">
               kelvin luo
             </h3>
@@ -341,6 +288,7 @@
               margin-left: 111%;
               width: 220px;
               height: 30;
+              margin-top: 50px;
             "
           >
             awards & recognition
@@ -371,28 +319,22 @@
 
         <div class="testimonials-text">
           <img src="../assets/img/Group 26.png" alt="" /><span
-            ><h3 style="color: rgb(230, 230, 151); width: 143px; height: 30">
-              bid gourmond
-            </h3>
+            ><h3 class="text-1">bid gourmond</h3>
             <p>elit. Deleniti ullam eveniet minima</p>
           </span>
 
           <img src="../assets/img/Group 26 (1).png" alt="" /><span
-            ><h3 style="color: rgb(230, 230, 151); width: 143px; height: 30">
-              AA Hospitality
-            </h3>
+            ><h3 class="text-2">AA Hospitality</h3>
             <p>elit. Deleniti ullam eveniet minima</p>
           </span>
 
           <img src="../assets/img/Group 25.png" alt="" /><span
-            ><h3 style="color: rgb(230, 230, 151)">rising star</h3>
+            ><h3 class="text-3">rising star</h3>
             <p>elit. Deleniti ullam eveniet minima</p>
           </span>
 
           <img src="../assets/img/Group 27.png" alt="" /><span
-            ><h3 style="color: rgb(230, 230, 151); width: 200px; height: 30">
-              outstanding chef
-            </h3>
+            ><h3 class="text-4">outstanding chef</h3>
             <p>elit. Deleniti ullam eveniet minima</p>
           </span>
         </div>
@@ -411,9 +353,9 @@
             alt=""
             style="width: 7%; margin: auto; padding-bottom: 25px"
           />
-          <h2 style="color: rgb(230, 230, 151)">photo gallery</h2>
+          <h2 class="gallery">photo gallery</h2>
 
-          <p class="active">
+          <p>
             elit. Deleniti ulla eveniet minima Quibusdam ab odio fuga dolore eos
             ex eligendi vitae
           </p>
@@ -440,7 +382,7 @@
       <!--footer-section start-->
       <section class="footer">
         <div class="footer-text">
-          <h4>contact</h4>
+          <h4 class="contact">contact</h4>
           <img
             src="../assets/img/Frame 17.png"
             alt=""
@@ -451,8 +393,10 @@
             ulla eveniet minima Quibusdam ab odio fuga dolore eos ex eligendi
             vitae
           </p>
-          <p style="color: rgb(230, 230, 151)">opening hours</p>
-          <p>mon-fri: 10:00 am-02:00 am</p>
+          <h4 style="color: rgb(230, 230, 151); margin-top: 20px">
+            opening hours
+          </h4>
+          <p style="margin-top: 10px">mon-fri: 10:00 am-02:00 am</p>
           <p>sat-sun: 10:00 am-03:00 am</p>
           <button>view us</button>
         </div>
@@ -473,7 +417,7 @@
             style="width: 7%; margin: auto; padding-bottom: 30px"
           />
           <h3 style="color: rgb(230, 230, 151)">subscribe to our newsletter</h3>
-          <p style="font-size: 10px">and never miss latest update!</p>
+          <p class="latest">and never miss latest update!</p>
           <span>
             <input
               type="text "
@@ -496,9 +440,9 @@
 
           <div>
             <img
+              class="newsletter-gerich"
               src="../assets/img/Gerícht (1).png"
               alt=""
-              style="width: 45%; margin: auto"
             />
             <p>Quibusdam ab odio fuga dolore</p>
 
@@ -513,7 +457,7 @@
               <img src="./assets/img/twitter.png" alt="" />
             </div>
           </div>
-          <div>
+          <div class="working-hours">
             <h3>working hours</h3>
             <p>mon-fri: 10:00 am-02:00 am</p>
             <p>sat-sun: 10:00 am-03:00 am</p>
@@ -524,5 +468,7 @@
         </div>
       </section>
     </div>
+
+    <script src="./script/script.js"></script>
   </body>
 </html>
