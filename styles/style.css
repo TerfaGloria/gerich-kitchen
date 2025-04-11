@@ -905,26 +905,29 @@ input{
       
       *{
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
       }
+
+
 
     .background{
         overflow: hidden;
         font-size: 10px;
     }
       /* Navigation styling for smaller screens */
-nav {
+/* .nav {
     background-color: black;
     width: 100%;
     height: 50px;
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
-    /* z-index: 100; */
+    overflow: hidden;
+    border: none;
   }
 
-
-    
-     ul{
+   ul{
         width:25%;
         margin: auto; 
         color: white;
@@ -936,26 +939,113 @@ nav {
         font-size: 7px;
         margin-right: 65px; 
         line-height: 15px;
-        
-        /* text-align:left; */
-
+        overflow: hidden;
+       
+       
      
        
-    }
-    .mobile-view{
-        flex-direction: column;
-        display:flex;
+    } 
+      .mobile-view {
         text-transform: capitalize;
-     }
-     .blur{
-        filter: blur(5px);
-        transition: filter 0.3s ease;
-     }
-
-    .hidden{
+        position: fixed;
+        z-index: 1;
+        display: block;
+        
+      }  
+    
+    */
+   
+    
+    .mobile-view {
+        text-transform: capitalize;
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+         margin-left: 280px; 
+         margin-bottom: 30px;
+        
+        
+      }
+      .sidebar {
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+        
+      }
+      
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
         display: none;
-    }
+      }
+      
+      .overlay.show {
+        display: block;
+      } 
+     
+      
+    
+      
+      
+    .sidebar ul{
+        width:25%;
+        margin: auto; 
+        color: white;
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 10px;
 
+        font-size: 7px;
+       line-height: 15px;
+       
+       } 
+
+
+      .menu-icon img {
+        width: 30px;
+        height: auto;
+        cursor: pointer;
+        z-index: 3;
+        display: block; 
+    
+    
+      }
+      
+      .close-icon img{
+        width: 30px;
+     
+        top: 20px;
+        right: 20px;
+       
+     }
+     .sidebar ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 7px;
+
+    }
+    sidebar ul li {
+        display: block;
+        padding: 10px;
+        margin: 0;
+      }
+      
+   
+   .hidden{
+    display: none;
+   }
+      
+      
+     
+      
+      
     .home{
         display: none;
     }
@@ -969,7 +1059,7 @@ nav {
     .gerich{
         width: 30%;
         margin: auto;
-        position: absolute;
+        position: fixed;
        top: 10px;
        left: 10px;
     }
@@ -987,16 +1077,19 @@ nav {
     height: 60vh;
     background-color: black;
     color: white;
-    margin-top: 50px;
+    overflow: hidden;
+    
+     
+
   }
   
   .hero-text {
     width: 100%;
     margin: auto;
     line-height: 3px;
-    /* padding-bottom: 10px; */
+
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
   }
   
   .scroll p{
