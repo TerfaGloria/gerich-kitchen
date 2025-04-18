@@ -73,9 +73,9 @@ ul{
     background-color: black;
     color: white;
     text-align: center;
-
-
 }
+
+
 
 
 .hero-text{
@@ -83,8 +83,8 @@ ul{
     margin-top: 60px;
     text-transform: capitalize;
     text-align: center;
-     padding-left: 35px;  
-    width: 453;
+    padding-left: 60px;  
+    width: 460;
     height: 481;
     gap: 32px;
     
@@ -129,7 +129,7 @@ rotate:  90 deg;
 width: 25%;
 margin: auto 70px;
 font-family: Cormorant Upright;
-color:  rgb(230, 230, 151) !important;
+color: #DCCA87 !important;
 margin-top: 23em;
    
    
@@ -144,7 +144,7 @@ margin-top: 23em;
 width:90%;
 margin: auto;
 rotate: 90deg;
-border-width: 1px solid   rgb(230, 230, 151) ;
+border-width: 1px solid   #DCCA87; 
   
 
 }
@@ -167,7 +167,7 @@ font-size: 33px;
 line-height: 200%;
 letter-spacing: 20%;
 text-transform: capitalize;
- color: rgb(230, 230, 151);
+ color:#DCCA87;;
  padding-right: 70px;  
     
  
@@ -204,7 +204,7 @@ line-height: 180%;
     padding-right: 32px;
     padding-bottom: 8px;
     padding-left: 32px;
-    background-color: rgb(230, 230, 151);
+    background-color:#DCCA87;;
     color: black;
     text-transform: capitalize;
     cursor: pointer;
@@ -224,7 +224,7 @@ button:hover{
 
 .hero-img{
 margin-top: 40px; 
- width: 600;
+ width: 800;
 height: 550;
   
 }
@@ -266,11 +266,22 @@ height: 550;
     width: 30%;
     margin: auto;
     text-align: right
+    
 }
 .about-us h2{
-    text-transform: capitalize;
-    color: rgb(230, 230, 151);
-    margin-left: 160px;
+
+    color: #DCCA87;
+ margin-left: 160px;
+ width: 325;
+height: 83;
+font-family: Cormorant Upright;
+font-weight: 600;
+font-size: 50px;
+line-height: 130%;
+letter-spacing: 3%;
+text-transform: capitalize;
+
+
 }
 .about-us button{
     margin-left: 300px
@@ -282,6 +293,23 @@ height: 550;
 .history{
     width: 30%;
     margin: auto;
+  
+ 
+}
+
+.history-h2{
+ text-transform: capitalize;
+ color: #DCCA87;
+
+height: 83;
+font-family: Cormorant Upright;
+font-weight: 600;
+font-size: 50px;
+line-height: 130%;
+letter-spacing: 3%;
+text-transform: capitalize;
+
+
 }
 
    .knive-img {
@@ -297,7 +325,7 @@ height: 550;
   }
 
   .features-section button{
-    background-color: rgb(230, 230, 151);
+    background-color:#DCCA87;
     color: black;
     text-transform: capitalize;
     border: none;
@@ -377,7 +405,7 @@ width: 2%;
 }
 
 .service-section h3{
-    color: rgb(230, 230, 151);
+    color: #DCCA87;
     
 }
 .service-section span{
@@ -468,7 +496,7 @@ span img{
 }
 
 .service-section button{
-    background-color: rgb(230, 230, 151);
+    background-color:#DCCA87;
     color: black;
     text-transform: capitalize;
     border: none;
@@ -526,10 +554,40 @@ span img{
     text-transform: capitalize;
      padding-top: 40px
 }
+
+.believe{
+    text-transform: capitalize; 
+    /* color: rgb(230, 230, 151); */
+    color: #DCCA87;
+
+    font-family: Cormorant Upright;
+font-weight: 600;
+font-size: 50px;
+line-height: 130%;
+letter-spacing: 3%;
+text-transform: capitalize;
+
+}
 .chef-text div{
     margin-top: 60px
 }
 
+.chef-kelvin-1{
+    width: 235;
+height: 83;
+font-family: Bestermind;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 4%;
+text-transform: capitalize;
+color: #DCCA87;
+
+}
+
+.chef-kelvin-2{
+    margin-top: 50px;
+}
 /* chef-section styling for desktop screens end*/
 
 
@@ -565,25 +623,25 @@ span img{
 }
 
 .text-1{
-    color: rgb(230, 230, 151); 
+    color: #DCCA87;
     width: 143px;
      height: 30;
 }
 
 
  .text-2{
-    color: rgb(230, 230, 151);
+    color: #DCCA87;
      width: 143px;
       height: 30
  } 
 
  .text-3{
-    color: rgb(230, 230, 151)
+    color: #DCCA87;
  }
 
 
  .text-4{
-    color: rgb(230, 230, 151); 
+    color: #DCCA87;
     width: 200px;
      height: 30
  }
@@ -681,7 +739,7 @@ letter-spacing: 4%;
    
 }
 .call-to-action-section button{
-background-color: rgb(230, 230, 151);
+background-color:#DCCA87;;
 color: black;
 text-transform: capitalize;
 border: none;
@@ -700,7 +758,7 @@ cursor: pointer;
  .gallery{
 width: 367;
 height: 83;
-color: rgb(230, 230, 151);
+color: #DCCA87;
 margin-bottom: 10px;
 font-family: Cormorant Upright;
 font-weight: 600;
@@ -770,7 +828,7 @@ margin-right: 150px;
       
    }
    .footer button{
-   background-color: rgb(230, 230, 151);
+   background-color: #DCCA87;
    color: black;
    text-transform: capitalize;
    border: none;
@@ -816,31 +874,74 @@ margin-right: 150px;
      
 }
 
+.news{
+    width: 80;
+height: 30;
+padding-top:20px;
 
+    font-family: Cormorant Upright;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 4%;
+text-transform: capitalize;
+
+
+}
 
 .newsletter-subscription{
 
-        width: 50%;
-       height: 40vh;
-        margin: auto;
-        
-        box-shadow: 0px 0px 5px rgb(230, 230, 151);
+        width: 60%;
+       height: 50vh;
+        margin: auto ;
+        box-shadow: 0px 0px 1px rgb(230, 230, 151);
         text-align: center;
         background-color: black;
         line-height:40px;
+    }
+
+   
+
+.subscribe{
+ width: 776;
+height: 83;
+color: #DCCA87;
+font-family: Cormorant Upright;
+font-weight: 600;
+font-size: 50px;
+line-height: 130%;
+letter-spacing: 3%;
+text-align: center;
+text-transform: capitalize;
+
 }
 
+    
+
 .latest{
-    font-size: 10px
+font-size: 10px;
+ width: 250;
+height: 28;
+
+font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 4%;
+text-align: center;
+margin: 20px;
+
 }
 
 .newsletter-section button{
     width: 1870;
 height: 930;
+Font:Cormorant Upright;
+
 top: 7532px;
 left: 22px;
 border-width: 1px;
-background-color: rgb(230, 230, 151);
+background-color: #DCCA87;
 color: black;
 text-transform: capitalize;
 border: none;
@@ -865,12 +966,20 @@ input{
 }
 
 .newsletter-working-time{
-    width: 80%;
-    margin: auto;
-    display: flex;
-     justify-content: space-evenly;
-     margin-top: 70px;
-     text-transform: capitalize;
+ width: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 70px;
+ text-transform: capitalize;
+ font-family: Cormorant Upright;
+ font-family: Cormorant Upright;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 4%;
+text-transform: capitalize;
+
 
  
 }
@@ -881,14 +990,32 @@ input{
 }
 .newsletter-working-time p{
     margin-top: 20px;
+   
 }
+
+
 /* newsletter-section styling for desktop screens end*/
 
  .Rights{
-    text-align: center;
-     margin-right: 50px;
-     margin-top: 50px;
-     
+ text-align: center;
+ margin-right: 50px;
+ margin-top: 50px;
+ font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 4%;
+text-align: center;
+
+ }
+ .working-hours{
+font-family: Cormorant Upright;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 4%;
+text-transform: capitalize;
+
     }
 
 .close-img{
@@ -1219,7 +1346,7 @@ img{
     background-image: url(../assets/img/BG\ \(1\).png);
     background-size: cover;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -1244,13 +1371,11 @@ img{
    .about-us{
     width: 100%;
     margin:  auto  ;
-     padding-right: 135px;   
-      margin-bottom: 270px;   
-      /* padding-right: 100px;  */
-     /* font-size: 4px;   */
+     
       text-align: center;  
-     line-height: 4px;  
+    
  } 
+ 
 
  .about-us .p{   
 
@@ -1261,9 +1386,10 @@ img{
     font-size: 10px;
     line-height: 175%;
     letter-spacing: 4%;
-    /* padding-right: 20px; */
+    padding-right: 20px;
     text-align: center;
     margin-top: 10px;  
+    margin-left: 10px;
  }
 
  .about-us button{
@@ -1276,16 +1402,20 @@ img{
  }
  .about-us h2{
     text-align: center;
+    width: 10% !important; 
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    
+    
     
 
 
  }
  .about-us img{
-    width: 10%;
-    margin-left: 150px;
-    margin-top: 10px;
-    rotate: 360deg;
-        
+  
+display: none;
+
     
   }
 
@@ -1306,10 +1436,11 @@ img{
     font-size: 10px;
     line-height: 175%;
     letter-spacing: 4%;
-    /* padding-right: 20px; */
+   
     text-align: center;
-    /* margin-top: 20px;  */
+    
     margin-top: 10px;
+    
 
 
 }
@@ -1330,16 +1461,8 @@ img{
 
   
  .knive-img {
-    position: absolute;
-    top: 155px; 
-   
-    left: 0; 
-    width: 15%;
-    margin: auto;
-    text-align: center;
-    margin-left:180px;
-    
-    /* height: 600; */
+  
+    display: none;
     
   }    
      
